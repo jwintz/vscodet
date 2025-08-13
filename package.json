@@ -2,7 +2,7 @@
     "name": "vscodet",
     "displayName": "Code:T",
     "description": "A bichromatic semantic theme",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "author": "Julien Wintz",
     "license": "MIT",
     "icon": "package.png",
