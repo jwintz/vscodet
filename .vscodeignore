@@ -41,10 +41,6 @@ package-lock.json
 README.md
 CHANGELOG.md
 
-# Template files (since we generate the actual themes)
-# Keep the generated theme files for web compatibility
-themes/*.in
-
 # macOS
 .DS_Store
 

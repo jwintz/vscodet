@@ -1,8 +1,8 @@
 {
     "name": "vscodet",
-    "displayName": "VSCodeT",
+    "displayName": "Code:T",
     "description": "A bichromatic semantic theme",
-    "version": "0.0.1",
+    "version": "0.0.3",
     "author": "Julien Wintz",
     "license": "MIT",
     "icon": "package.png",
@@ -38,12 +38,12 @@
     "contributes": {
         "themes": [
             {
-                "label": "VSCodeT Light",
+                "label": "Code:T Light",
                 "uiTheme": "vs",
                 "path": "./themes/vscodet-light.json"
             },
             {
-                "label": "VSCodeT Dark",
+                "label": "Code:T Dark",
                 "uiTheme": "vs-dark",
                 "path": "./themes/vscodet-dark.json"
             }
@@ -51,11 +51,11 @@
         "commands": [
             {
                 "command": "codet.regenerate",
-                "title": "VSCodeT: Regenerate Themes with New Accent Color"
+                "title": "Code:T: Regenerate Themes with New Accent Color"
             }
         ],
         "configuration": {
-            "title": "VSCodeT",
+            "title": "Code:T",
             "properties": {
                 "codet.accent": {
                     "type": "string",

@@ -13,6 +13,18 @@ Types of changes include:
 - `Fixed` for any bug fixes
 - `Security` in case of vulnerabilities
 
+## [0.0.3] - 2025-08-13
+
+### Fixed
+
+- `codet.regenerate`: Template was excluded from the package
+
+## [0.0.2] - 2025-08-13
+
+### Changed
+
+- Display Name -> Code:T
+
 ## [0.0.1] - 2025-08-13
 
 ### Added

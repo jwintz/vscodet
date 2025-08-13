@@ -327,7 +327,7 @@ export class ThemeGenerator {
         const lightContent = this.replaceTemplateVariables(
             templateContent,
             lightVariables,
-            'VSCodeT Light',
+            'Code:T Light',
             'light'
         );
         fs.writeFileSync(path.join(this.outputDir, 'vscodet-light.json'), lightContent);
@@ -336,7 +336,7 @@ export class ThemeGenerator {
         const darkContent = this.replaceTemplateVariables(
             templateContent,
             darkVariables,
-            'VSCodeT Dark',
+            'Code:T Dark',
             'dark'
         );
         fs.writeFileSync(path.join(this.outputDir, 'vscodet-dark.json'), darkContent);

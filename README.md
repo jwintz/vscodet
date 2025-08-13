@@ -1,4 +1,4 @@
-# VSCodeT
+# Code:T
 
 A bichromatic VS Code theme with semantic highlighting.
 
@@ -62,14 +62,14 @@ The theme generates these faces from just two base colors:
 1. Install the extension from the VS Code marketplace
 2. Press `Ctrl+Shift+P` (or `Cmd+Shift+P` on macOS) to open the command palette
 3. Search for "Color Theme" and select "Preferences: Color Theme"
-4. Choose either "VSCodeT Light" or "VSCodeT Dark"
+4. Choose either "Code:T Light" or "Code:T Dark"
 
 ## Customization
 
 ### Changing the Accent Color
 
 1. Press `Ctrl+Shift+P` (or `Cmd+Shift+P` on macOS)
-2. Search for "VSCodeT: Regenerate Themes with New Accent Color"
+2. Search for "Code:T: Regenerate Themes with New Accent Color"
 3. Enter a new hex color (e.g., `#FF6B6B`)
 4. Choose to reload VS Code when prompted
 
