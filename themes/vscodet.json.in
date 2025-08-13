@@ -4,6 +4,7 @@
 
     "colors": {
 
+        "activityBar.foreground": "{{--vscodet-foreground}}",
         "activityBar.background": "{{--vscodet-background-alternate}}",
         "activityBar.border": "{{--vscodet-border}}",
         "badge.background": "{{--vscodet-accent}}",

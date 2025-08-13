@@ -13,6 +13,14 @@ Types of changes include:
 - `Fixed` for any bug fixes
 - `Security` in case of vulnerabilities
 
+## [0.0.8] - 2025-08-13
+
+### Added
+
+- Colors:
+
+    - [x] `activityBar.foreground`
+
 ## [0.0.7] - 2025-08-13
 
 ### Added
