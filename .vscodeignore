@@ -1,0 +1,59 @@
+## Version: $Id:  $
+## 
+## 
+
+## Commentary:
+## 
+## 
+
+## Changelog:
+## 
+## 
+
+## 
+## Code starts here
+## #############################################################################
+
+# Build outputs
+out/test/**
+out/**/*.map
+
+# Source files (keep .web.js files for web compatibility)
+src/**
+!out/extension.web.js
+
+# Dependencies
+node_modules/
+
+# Development files
+.vscode/
+tsconfig.json
+.eslintrc.json
+.prettierrc
+.editorconfig
+
+# Git and package management
+.git/
+.gitignore
+package-lock.json
+
+# Documentation and development
+README.md
+CHANGELOG.md
+
+# Template files (since we generate the actual themes)
+# Keep the generated theme files for web compatibility
+themes/*.in
+
+# macOS
+.DS_Store
+
+# Test files
+**/*.test.*
+**/test/**
+
+# Logs
+*.log
+
+## #############################################################################
+## Code ends here

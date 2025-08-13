@@ -1,0 +1,497 @@
+{
+    "name": "VSCodeT Light",
+    "type": "light",
+
+    "colors": {
+
+        "activityBar.border": "#e0e0e0",
+        "badge.background": "#A68AF9",
+        "button.background": "#A68AF9",
+        "button.hoverBackground": "#9472f8",
+        "chat.requestBubbleBackground": "#c5beda",
+        "chat.requestBubbleHoverBackground": "#A68AF9",
+        "chat.slashCommandBackground": "#efefef",
+        "chat.slashCommandForeground": "#000000",
+        "commandCenter.activeBackground": "#ffffff",
+        "commandCenter.activeForeground": "#000000",
+        "commandCenter.background": "#ffffff",
+        "commandCenter.debuggingBackground": "#ffffff",
+        "commandCenter.foreground": "#000000",
+        "commandCenter.inactiveBackground": "#ffffff",
+        "commandCenter.inactiveForeground": "#000000",
+        "dropdown.background": "#efefef",
+        "dropdown.border": "#e0e0e0",
+        "editor.background": "#ffffff",
+        // "editor.lineHighlightBackground": "#c5beda",
+        "editor.selectionBackground": "#c5beda",
+        "editorBracketHighlight.foreground1": "#a68af9",
+        "editorBracketHighlight.foreground2": "#a472f2",
+        "editorBracketHighlight.foreground3": "#a75ce9",
+        "editorBracketHighlight.foreground4": "#ac49dd",
+        "editorBracketHighlight.foreground5": "#b338cf",
+        "editorBracketHighlight.foreground6": "#ad35b3",
+        "editorBracketHighlight.unexpectedBracket.foreground": "#f38ba8",
+        "editorCursor.foreground": "#A68AF9",
+        "editorGroup.border": "#e0e0e0",
+        "editorGroupHeader.border": "#e0e0e0",
+        "editorLineNumber.foreground": "#808080",
+        "editorLink.activeForeground": "#A68AF9",
+        "editorOverviewRuler.border": "#e0e0e0",
+        "explorer.iconForeground": "#000000",
+        "focusBorder": "#A68AF9",
+        "inlineChat.border": "#A68AF9",
+        "inlineChatInput.border": "#A68AF9",
+        "inlineChatInput.focusBorder": "#A68AF9",
+        "input.background": "#efefef",
+        "input.border": "#e0e0e0",
+        "list.activeSelectionBackground": "#A68AF9",
+        "list.activeSelectionForeground": "#ffffff",
+        "list.activeSelectionIconForeground": "#ffffff",
+        "list.focusBackground": "#A68AF9",
+        "list.focusForeground": "#ffffff",
+        "list.focusIconForeground": "#ffffff",
+        "list.highlightForeground": "#000000",
+        "list.iconForeground": "#000000",
+        "list.inactiveSelectionBackground": "#A68AF9",
+        "list.inactiveSelectionForeground": "#ffffff",
+        "list.inactiveSelectionIconForeground": "#ffffff",
+        "minimap.selectionHighlight": "#c5beda",
+        "minimap.selectionOccurrenceHighlight": "#c5beda",
+        "panel.background": "#ffffff",
+        "panel.border": "#e0e0e0",
+        "panelTitle.activeBorder": "#A68AF9",
+        "panelTitleBadge.background": "#A68AF9",
+        "pickerGroup.border": "#e0e0e0",
+        "pickerGroup.foreground": "#A68AF9",
+        "quickInput.background": "#efefef",
+        "quickInput.foreground": "#1e1e1e",
+        "quickInputList.focusBackground": "#A68AF9",
+        "quickInputList.focusForeground": "#ffffff",
+        "quickInputList.focusIconForeground": "#ffffff",
+        "quickInputList.focusMatchHighlight": "#000000",
+        "quickInputList.matchHighlight": "#A68AF9",
+        "quickInputTitle.background": "#efefef",
+        "scmGraph.historyItemRefColor": "#A68AF9",
+        "scrollbarSlider.activeBackground": "#A68AF9",
+        "scrollbarSlider.background": "#A68AF9",
+        "scrollbarSlider.hoverBackground": "#9472f8",
+        "sideBar.background": "#efefef",
+        "sideBar.border": "#e0e0e0",
+        "sideBar.foreground": "#000000",
+        "sideBar.iconForeground": "#000000",
+        "sideBarSectionHeader.background": "#efefef",
+        "sideBarSectionHeader.border": "#e0e0e0",
+        "statusBar.background": "#ffffff",
+        "statusBar.border": "#e0e0e0",
+        "statusBar.foreground": "#1e1e1e",
+        "statusBar.noFolderBackground": "#ffffff",
+        "statusBarItem.remoteBackground": "#A68AF9",
+        "statusBarItem.remoteForeground": "#ffffff",
+        "statusBarItem.remoteHoverBackground": "#9472f8",
+        "statusBarItem.remoteHoverForeground": "#ffffff",
+        "tab.activeBackground": "#A68AF9",
+        "tab.activeForeground": "#ffffff",
+        "tab.activeIconForeground": "#ffffff",
+        "tab.border": "#e0e0e0",
+        "tab.iconForeground": "#000000",
+        "tab.inactiveBackground": "#efefef",
+        "tab.inactiveForeground": "#000000",
+        "tab.inactiveIconForeground": "#000000",
+        "textLink.foreground": "#A68AF9",
+        "textLink.activeForeground": "#A68AF9",
+        "terminal.background": "#ffffff",
+        "titleBar.activeBackground": "#efefef",
+        "titleBar.border": "#e0e0e0",
+        "tree.activeSelectionIconForeground": "#ffffff",
+        "tree.focusIconForeground": "#ffffff",
+        "tree.iconForeground": "#000000",
+        "tree.inactiveSelectionIconForeground": "#ffffff",
+        "tree.indentGuidesStroke": "#e0e0e0",
+        "tree.tableColumnsBorder": "#e0e0e0",
+        "tree.tableOddRowsBackground": "#efefef",
+        "workbench.list.activeSelectionIconForeground": "#ffffff",
+        "workbench.tree.iconForeground": "#000000"
+
+    },
+
+    "tokenColors": [
+        // Core structural elements - strong face (bold emphasis)
+        {
+            "scope": [
+                "entity.name.function",
+                "entity.name.class",
+                "entity.name.type",
+                "entity.name.namespace",
+                "entity.name.tag",
+                "meta.function-call.generic.python",
+                "support.function",
+                "keyword.control",
+                "keyword.operator.new",
+                "storage.type.function",
+                "storage.type.class",
+                "storage.modifier"
+            ],
+            "settings": {
+                "foreground": "#000000",
+                "fontStyle": "bold"
+            }
+        },
+
+        // Important constructs - salient face (accent color)
+        {
+            "scope": [
+                "entity.name.type.class",
+                "entity.name.type.interface",
+                "entity.name.type.enum",
+                "support.type",
+                "support.class",
+                "variable.language.this",
+                "variable.language.super",
+                "constant.language",
+                "meta.import",
+                "meta.export"
+            ],
+            "settings": {
+                "foreground": "#321685"
+            }
+        },
+
+        // Attention-grabbing elements - popout face
+        {
+            "scope": [
+                "string",
+                "string.quoted",
+                "string.template",
+                "constant.character.escape",
+                "markup.quote",
+                "markup.bold",
+                "entity.name.tag.yaml"
+            ],
+            "settings": {
+                "foreground": "#240e67"
+            }
+        },
+
+        // Critical elements - critical face (errors, warnings)
+        {
+            "scope": [
+                "invalid",
+                "invalid.illegal",
+                "invalid.deprecated",
+                "markup.deleted",
+                "markup.error"
+            ],
+            "settings": {
+                "foreground": "#f38ba8",
+                "fontStyle": "bold"
+            }
+        },
+
+        // Secondary information - faded face (comments, less important)
+        {
+            "scope": [
+                "comment",
+                "comment.line",
+                "comment.block",
+                "punctuation.definition.comment"
+            ],
+            "settings": {
+                "foreground": "#808080",
+                "fontStyle": "italic"
+            }
+        },
+
+        // Non-comment faded elements (no italic)
+        {
+            "scope": [
+                "markup.quote",
+                "meta.preprocessor",
+                "entity.other.attribute-name.html",
+                "entity.other.attribute-name.class.css",
+                "punctuation.separator",
+                "punctuation.terminator",
+                "punctuation.accessor"
+            ],
+            "settings": {
+                "foreground": "#808080"
+            }
+        },
+
+        // Default elements - default face (variables, identifiers)
+        {
+            "scope": [
+                "variable",
+                "variable.other",
+                "variable.parameter",
+                "variable.object.property",
+                "meta.object-literal.key",
+                "entity.name.variable",
+                "constant.numeric",
+                "constant.language.boolean",
+                "support.variable"
+            ],
+            "settings": {
+                "foreground": "#000000"
+            }
+        },
+
+        // Operators and punctuation - default with bold
+        {
+            "scope": [
+                "keyword.operator",
+                "keyword.operator.arithmetic",
+                "keyword.operator.comparison",
+                "keyword.operator.logical",
+                "keyword.operator.assignment",
+                "punctuation.definition.string.begin",
+                "punctuation.definition.string.end"
+            ],
+            "settings": {
+                "foreground": "#000000",
+                "fontStyle": "bold"
+            }
+        },
+
+        // Language keywords - salient with bold
+        {
+            "scope": [
+                "keyword",
+                "keyword.control.flow",
+                "keyword.control.conditional",
+                "keyword.control.loop",
+                "keyword.control.import",
+                "keyword.control.export",
+                "storage.type",
+                "storage.modifier.async",
+                "storage.modifier.static"
+            ],
+            "settings": {
+                "foreground": "#321685",
+                "fontStyle": "bold"
+            }
+        },
+
+        // Types and built-ins - salient face
+        {
+            "scope": [
+                "entity.name.type",
+                "support.type.primitive",
+                "support.type.builtin",
+                "support.class.builtin",
+                "entity.other.inherited-class"
+            ],
+            "settings": {
+                "foreground": "#321685"
+            }
+        },
+
+        // Decorators and annotations - popout face
+        {
+            "scope": [
+                "entity.name.function.decorator",
+                "meta.decorator",
+                "punctuation.decorator"
+            ],
+            "settings": {
+                "foreground": "#240e67"
+            }
+        },
+
+        // Markup headings - strong face
+        {
+            "scope": [
+                "markup.heading",
+                "entity.name.section"
+            ],
+            "settings": {
+                "foreground": "#000000",
+                "fontStyle": "bold"
+            }
+        },
+
+        // Links and references - salient face
+        {
+            "scope": [
+                "markup.underline.link",
+                "string.other.link"
+            ],
+            "settings": {
+                "foreground": "#321685"
+            }
+        },
+
+        // Code blocks and literal content - default face with subtle background
+        {
+            "scope": [
+                "markup.fenced_code",
+                "markup.inline.raw"
+            ],
+            "settings": {
+                "foreground": "#000000",
+                "background": "#fafafa"
+            }
+        }
+    ],
+
+    "semanticHighlighting": true,
+
+    "semanticTokenColors": {
+        // Core structural elements - strong face (bold for importance)
+        "namespace": {
+            "foreground": "#000000",
+            "fontStyle": "bold"
+        },
+        "class": {
+            "foreground": "#000000",
+            "fontStyle": "bold"
+        },
+        "function": {
+            "foreground": "#000000",
+            "fontStyle": "bold"
+        },
+        "method": {
+            "foreground": "#000000"
+        },
+
+        // Important type information - salient face (accent color)
+        "interface": {
+            "foreground": "#321685",
+            "fontStyle": "bold"
+        },
+        "struct": {
+            "foreground": "#321685",
+            "fontStyle": "bold"
+        },
+        "enum": {
+            "foreground": "#321685",
+            "fontStyle": "bold"
+        },
+        "type": {
+            "foreground": "#321685"
+        },
+        "typeParameter": {
+            "foreground": "#321685"
+        },
+
+        // Language constructs - salient with bold
+        "keyword": {
+            "foreground": "#321685",
+            "fontStyle": "bold"
+        },
+        "macro": {
+            "foreground": "#321685",
+            "fontStyle": "bold"
+        },
+
+        // Regular variables and data - default face
+        "variable": {
+            "foreground": "#000000"
+        },
+        "parameter": {
+            "foreground": "#000000"
+        },
+        "property": {
+            "foreground": "#000000"
+        },
+        "enumMember": {
+            "foreground": "#321685"
+        },
+
+        // Operators - default with bold
+        "operator": {
+            "foreground": "#000000",
+            "fontStyle": "bold"
+        },
+
+        // Literals and content - popout for strings, default for numbers
+        "string": {
+            "foreground": "#240e67"
+        },
+        "number": {
+            "foreground": "#000000"
+        },
+        "regexp": {
+            "foreground": "#240e67"
+        },
+
+        // Meta constructs - appropriate face based on function
+        "decorator": {
+            "foreground": "#240e67"
+        },
+        "event": {
+            "foreground": "#321685"
+        },
+        "label": {
+            "foreground": "#000000",
+            "fontStyle": "bold"
+        },
+        "comment": {
+            "foreground": "#808080",
+            "fontStyle": "italic"
+        },
+
+        // Behavioral modifiers - emphasize declarations and important states
+        "*.declaration": {
+            "fontStyle": "bold"
+        },
+        "*.definition": {
+            "fontStyle": "bold"
+        },
+        "*.readonly": {
+            "foreground": "#321685"
+        },
+        "*.deprecated": {
+            "foreground": "#808080",
+            "fontStyle": "strikethrough"
+        },
+        "*.modification": {
+            "fontStyle": "bold"
+        },
+        "*.documentation": {
+            "foreground": "#808080"
+        },
+        "*.defaultLibrary": {
+            "foreground": "#321685"
+        },
+
+        // Specific important combinations
+        "class.declaration": {
+            "foreground": "#000000",
+            "fontStyle": "bold"
+        },
+        "function.declaration": {
+            "foreground": "#000000",
+            "fontStyle": "bold"
+        },
+        "method.static": {
+            "foreground": "#000000"
+        },
+        "function.static": {
+            "foreground": "#000000",
+            "fontStyle": "bold"
+        },
+        "variable.readonly": {
+            "foreground": "#321685"
+        },
+        "property.readonly": {
+            "foreground": "#321685"
+        },
+        "parameter.readonly": {
+            "foreground": "#321685"
+        },
+        "class.abstract": {
+            "foreground": "#321685",
+            "fontStyle": "bold"
+        },
+        "method.abstract": {
+            "foreground": "#000000"
+        },
+        "function.async": {
+            "foreground": "#000000",
+            "fontStyle": "bold"
+        },
+        "method.async": {
+            "foreground": "#000000"
+        }
+    }
+}

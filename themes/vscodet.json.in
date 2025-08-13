@@ -1,0 +1,497 @@
+{
+    "name": "{{name}}",
+    "type": "{{type}}",
+
+    "colors": {
+
+        "activityBar.border": "{{--vscodet-border}}",
+        "badge.background": "{{--vscodet-accent}}",
+        "button.background": "{{--vscodet-accent}}",
+        "button.hoverBackground": "{{--vscodet-accent-hovered}}",
+        "chat.requestBubbleBackground": "{{--vscodet-accent-background}}",
+        "chat.requestBubbleHoverBackground": "{{--vscodet-accent}}",
+        "chat.slashCommandBackground": "{{--vscodet-background-alternate}}",
+        "chat.slashCommandForeground": "{{--vscodet-foreground}}",
+        "commandCenter.activeBackground": "{{--vscodet-background}}",
+        "commandCenter.activeForeground": "{{--vscodet-foreground}}",
+        "commandCenter.background": "{{--vscodet-background}}",
+        "commandCenter.debuggingBackground": "{{--vscodet-background}}",
+        "commandCenter.foreground": "{{--vscodet-foreground}}",
+        "commandCenter.inactiveBackground": "{{--vscodet-background}}",
+        "commandCenter.inactiveForeground": "{{--vscodet-foreground}}",
+        "dropdown.background": "{{--vscodet-background-alternate}}",
+        "dropdown.border": "{{--vscodet-border}}",
+        "editor.background": "{{--vscodet-background}}",
+        // "editor.lineHighlightBackground": "{{--vscodet-accent-background}}",
+        "editor.selectionBackground": "{{--vscodet-accent-background}}",
+        "editorBracketHighlight.foreground1": "{{--vscodet-bracket-1}}",
+        "editorBracketHighlight.foreground2": "{{--vscodet-bracket-2}}",
+        "editorBracketHighlight.foreground3": "{{--vscodet-bracket-3}}",
+        "editorBracketHighlight.foreground4": "{{--vscodet-bracket-4}}",
+        "editorBracketHighlight.foreground5": "{{--vscodet-bracket-5}}",
+        "editorBracketHighlight.foreground6": "{{--vscodet-bracket-6}}",
+        "editorBracketHighlight.unexpectedBracket.foreground": "{{--vscodet-face-critical}}",
+        "editorCursor.foreground": "{{--vscodet-accent}}",
+        "editorGroup.border": "{{--vscodet-border}}",
+        "editorGroupHeader.border": "{{--vscodet-border}}",
+        "editorLineNumber.foreground": "{{--vscodet-face-faded}}",
+        "editorLink.activeForeground": "{{--vscodet-accent}}",
+        "editorOverviewRuler.border": "{{--vscodet-border}}",
+        "explorer.iconForeground": "{{--vscodet-foreground}}",
+        "focusBorder": "{{--vscodet-accent}}",
+        "inlineChat.border": "{{--vscodet-accent}}",
+        "inlineChatInput.border": "{{--vscodet-accent}}",
+        "inlineChatInput.focusBorder": "{{--vscodet-accent}}",
+        "input.background": "{{--vscodet-background-alternate}}",
+        "input.border": "{{--vscodet-border}}",
+        "list.activeSelectionBackground": "{{--vscodet-accent}}",
+        "list.activeSelectionForeground": "{{--vscodet-background}}",
+        "list.activeSelectionIconForeground": "{{--vscodet-background}}",
+        "list.focusBackground": "{{--vscodet-accent}}",
+        "list.focusForeground": "{{--vscodet-background}}",
+        "list.focusIconForeground": "{{--vscodet-background}}",
+        "list.highlightForeground": "{{--vscodet-foreground}}",
+        "list.iconForeground": "{{--vscodet-foreground}}",
+        "list.inactiveSelectionBackground": "{{--vscodet-accent}}",
+        "list.inactiveSelectionForeground": "{{--vscodet-background}}",
+        "list.inactiveSelectionIconForeground": "{{--vscodet-background}}",
+        "minimap.selectionHighlight": "{{--vscodet-accent-background}}",
+        "minimap.selectionOccurrenceHighlight": "{{--vscodet-accent-background}}",
+        "panel.background": "{{--vscodet-background}}",
+        "panel.border": "{{--vscodet-border}}",
+        "panelTitle.activeBorder": "{{--vscodet-accent}}",
+        "panelTitleBadge.background": "{{--vscodet-accent}}",
+        "pickerGroup.border": "{{--vscodet-border}}",
+        "pickerGroup.foreground": "{{--vscodet-accent}}",
+        "quickInput.background": "{{--vscodet-background-alternate}}",
+        "quickInput.foreground": "{{--vscodet-foreground-alternate}}",
+        "quickInputList.focusBackground": "{{--vscodet-accent}}",
+        "quickInputList.focusForeground": "{{--vscodet-background}}",
+        "quickInputList.focusIconForeground": "{{--vscodet-background}}",
+        "quickInputList.focusMatchHighlight": "{{--vscodet-foreground}}",
+        "quickInputList.matchHighlight": "{{--vscodet-accent}}",
+        "quickInputTitle.background": "{{--vscodet-background-alternate}}",
+        "scmGraph.historyItemRefColor": "{{--vscodet-accent}}",
+        "scrollbarSlider.activeBackground": "{{--vscodet-accent}}",
+        "scrollbarSlider.background": "{{--vscodet-accent}}",
+        "scrollbarSlider.hoverBackground": "{{--vscodet-accent-hovered}}",
+        "sideBar.background": "{{--vscodet-background-alternate}}",
+        "sideBar.border": "{{--vscodet-border}}",
+        "sideBar.foreground": "{{--vscodet-foreground}}",
+        "sideBar.iconForeground": "{{--vscodet-foreground}}",
+        "sideBarSectionHeader.background": "{{--vscodet-background-alternate}}",
+        "sideBarSectionHeader.border": "{{--vscodet-border}}",
+        "statusBar.background": "{{--vscodet-background}}",
+        "statusBar.border": "{{--vscodet-border}}",
+        "statusBar.foreground": "{{--vscodet-foreground-alternate}}",
+        "statusBar.noFolderBackground": "{{--vscodet-background}}",
+        "statusBarItem.remoteBackground": "{{--vscodet-accent}}",
+        "statusBarItem.remoteForeground": "{{--vscodet-background}}",
+        "statusBarItem.remoteHoverBackground": "{{--vscodet-accent-hovered}}",
+        "statusBarItem.remoteHoverForeground": "{{--vscodet-background}}",
+        "tab.activeBackground": "{{--vscodet-accent}}",
+        "tab.activeForeground": "{{--vscodet-background}}",
+        "tab.activeIconForeground": "{{--vscodet-background}}",
+        "tab.border": "{{--vscodet-border}}",
+        "tab.iconForeground": "{{--vscodet-foreground}}",
+        "tab.inactiveBackground": "{{--vscodet-background-alternate}}",
+        "tab.inactiveForeground": "{{--vscodet-foreground}}",
+        "tab.inactiveIconForeground": "{{--vscodet-foreground}}",
+        "textLink.foreground": "{{--vscodet-accent}}",
+        "textLink.activeForeground": "{{--vscodet-accent}}",
+        "terminal.background": "{{--vscodet-background}}",
+        "titleBar.activeBackground": "{{--vscodet-background-alternate}}",
+        "titleBar.border": "{{--vscodet-border}}",
+        "tree.activeSelectionIconForeground": "{{--vscodet-background}}",
+        "tree.focusIconForeground": "{{--vscodet-background}}",
+        "tree.iconForeground": "{{--vscodet-foreground}}",
+        "tree.inactiveSelectionIconForeground": "{{--vscodet-background}}",
+        "tree.indentGuidesStroke": "{{--vscodet-border}}",
+        "tree.tableColumnsBorder": "{{--vscodet-border}}",
+        "tree.tableOddRowsBackground": "{{--vscodet-background-alternate}}",
+        "workbench.list.activeSelectionIconForeground": "{{--vscodet-background}}",
+        "workbench.tree.iconForeground": "{{--vscodet-foreground}}"
+
+    },
+
+    "tokenColors": [
+        // Core structural elements - strong face (bold emphasis)
+        {
+            "scope": [
+                "entity.name.function",
+                "entity.name.class",
+                "entity.name.type",
+                "entity.name.namespace",
+                "entity.name.tag",
+                "meta.function-call.generic.python",
+                "support.function",
+                "keyword.control",
+                "keyword.operator.new",
+                "storage.type.function",
+                "storage.type.class",
+                "storage.modifier"
+            ],
+            "settings": {
+                "foreground": "{{--vscodet-face-strong}}",
+                "fontStyle": "bold"
+            }
+        },
+
+        // Important constructs - salient face (accent color)
+        {
+            "scope": [
+                "entity.name.type.class",
+                "entity.name.type.interface",
+                "entity.name.type.enum",
+                "support.type",
+                "support.class",
+                "variable.language.this",
+                "variable.language.super",
+                "constant.language",
+                "meta.import",
+                "meta.export"
+            ],
+            "settings": {
+                "foreground": "{{--vscodet-face-salient}}"
+            }
+        },
+
+        // Attention-grabbing elements - popout face
+        {
+            "scope": [
+                "string",
+                "string.quoted",
+                "string.template",
+                "constant.character.escape",
+                "markup.quote",
+                "markup.bold",
+                "entity.name.tag.yaml"
+            ],
+            "settings": {
+                "foreground": "{{--vscodet-face-popout}}"
+            }
+        },
+
+        // Critical elements - critical face (errors, warnings)
+        {
+            "scope": [
+                "invalid",
+                "invalid.illegal",
+                "invalid.deprecated",
+                "markup.deleted",
+                "markup.error"
+            ],
+            "settings": {
+                "foreground": "{{--vscodet-face-critical}}",
+                "fontStyle": "bold"
+            }
+        },
+
+        // Secondary information - faded face (comments, less important)
+        {
+            "scope": [
+                "comment",
+                "comment.line",
+                "comment.block",
+                "punctuation.definition.comment"
+            ],
+            "settings": {
+                "foreground": "{{--vscodet-face-faded}}",
+                "fontStyle": "italic"
+            }
+        },
+
+        // Non-comment faded elements (no italic)
+        {
+            "scope": [
+                "markup.quote",
+                "meta.preprocessor",
+                "entity.other.attribute-name.html",
+                "entity.other.attribute-name.class.css",
+                "punctuation.separator",
+                "punctuation.terminator",
+                "punctuation.accessor"
+            ],
+            "settings": {
+                "foreground": "{{--vscodet-face-faded}}"
+            }
+        },
+
+        // Default elements - default face (variables, identifiers)
+        {
+            "scope": [
+                "variable",
+                "variable.other",
+                "variable.parameter",
+                "variable.object.property",
+                "meta.object-literal.key",
+                "entity.name.variable",
+                "constant.numeric",
+                "constant.language.boolean",
+                "support.variable"
+            ],
+            "settings": {
+                "foreground": "{{--vscodet-face-default}}"
+            }
+        },
+
+        // Operators and punctuation - default with bold
+        {
+            "scope": [
+                "keyword.operator",
+                "keyword.operator.arithmetic",
+                "keyword.operator.comparison",
+                "keyword.operator.logical",
+                "keyword.operator.assignment",
+                "punctuation.definition.string.begin",
+                "punctuation.definition.string.end"
+            ],
+            "settings": {
+                "foreground": "{{--vscodet-face-default}}",
+                "fontStyle": "bold"
+            }
+        },
+
+        // Language keywords - salient with bold
+        {
+            "scope": [
+                "keyword",
+                "keyword.control.flow",
+                "keyword.control.conditional",
+                "keyword.control.loop",
+                "keyword.control.import",
+                "keyword.control.export",
+                "storage.type",
+                "storage.modifier.async",
+                "storage.modifier.static"
+            ],
+            "settings": {
+                "foreground": "{{--vscodet-face-salient}}",
+                "fontStyle": "bold"
+            }
+        },
+
+        // Types and built-ins - salient face
+        {
+            "scope": [
+                "entity.name.type",
+                "support.type.primitive",
+                "support.type.builtin",
+                "support.class.builtin",
+                "entity.other.inherited-class"
+            ],
+            "settings": {
+                "foreground": "{{--vscodet-face-salient}}"
+            }
+        },
+
+        // Decorators and annotations - popout face
+        {
+            "scope": [
+                "entity.name.function.decorator",
+                "meta.decorator",
+                "punctuation.decorator"
+            ],
+            "settings": {
+                "foreground": "{{--vscodet-face-popout}}"
+            }
+        },
+
+        // Markup headings - strong face
+        {
+            "scope": [
+                "markup.heading",
+                "entity.name.section"
+            ],
+            "settings": {
+                "foreground": "{{--vscodet-face-strong}}",
+                "fontStyle": "bold"
+            }
+        },
+
+        // Links and references - salient face
+        {
+            "scope": [
+                "markup.underline.link",
+                "string.other.link"
+            ],
+            "settings": {
+                "foreground": "{{--vscodet-face-salient}}"
+            }
+        },
+
+        // Code blocks and literal content - default face with subtle background
+        {
+            "scope": [
+                "markup.fenced_code",
+                "markup.inline.raw"
+            ],
+            "settings": {
+                "foreground": "{{--vscodet-face-default}}",
+                "background": "{{--vscodet-face-subtle}}"
+            }
+        }
+    ],
+
+    "semanticHighlighting": true,
+
+    "semanticTokenColors": {
+        // Core structural elements - strong face (bold for importance)
+        "namespace": {
+            "foreground": "{{--vscodet-face-strong}}",
+            "fontStyle": "bold"
+        },
+        "class": {
+            "foreground": "{{--vscodet-face-strong}}",
+            "fontStyle": "bold"
+        },
+        "function": {
+            "foreground": "{{--vscodet-face-strong}}",
+            "fontStyle": "bold"
+        },
+        "method": {
+            "foreground": "{{--vscodet-face-strong}}"
+        },
+
+        // Important type information - salient face (accent color)
+        "interface": {
+            "foreground": "{{--vscodet-face-salient}}",
+            "fontStyle": "bold"
+        },
+        "struct": {
+            "foreground": "{{--vscodet-face-salient}}",
+            "fontStyle": "bold"
+        },
+        "enum": {
+            "foreground": "{{--vscodet-face-salient}}",
+            "fontStyle": "bold"
+        },
+        "type": {
+            "foreground": "{{--vscodet-face-salient}}"
+        },
+        "typeParameter": {
+            "foreground": "{{--vscodet-face-salient}}"
+        },
+
+        // Language constructs - salient with bold
+        "keyword": {
+            "foreground": "{{--vscodet-face-salient}}",
+            "fontStyle": "bold"
+        },
+        "macro": {
+            "foreground": "{{--vscodet-face-salient}}",
+            "fontStyle": "bold"
+        },
+
+        // Regular variables and data - default face
+        "variable": {
+            "foreground": "{{--vscodet-face-default}}"
+        },
+        "parameter": {
+            "foreground": "{{--vscodet-face-default}}"
+        },
+        "property": {
+            "foreground": "{{--vscodet-face-default}}"
+        },
+        "enumMember": {
+            "foreground": "{{--vscodet-face-salient}}"
+        },
+
+        // Operators - default with bold
+        "operator": {
+            "foreground": "{{--vscodet-face-default}}",
+            "fontStyle": "bold"
+        },
+
+        // Literals and content - popout for strings, default for numbers
+        "string": {
+            "foreground": "{{--vscodet-face-popout}}"
+        },
+        "number": {
+            "foreground": "{{--vscodet-face-default}}"
+        },
+        "regexp": {
+            "foreground": "{{--vscodet-face-popout}}"
+        },
+
+        // Meta constructs - appropriate face based on function
+        "decorator": {
+            "foreground": "{{--vscodet-face-popout}}"
+        },
+        "event": {
+            "foreground": "{{--vscodet-face-salient}}"
+        },
+        "label": {
+            "foreground": "{{--vscodet-face-default}}",
+            "fontStyle": "bold"
+        },
+        "comment": {
+            "foreground": "{{--vscodet-face-faded}}",
+            "fontStyle": "italic"
+        },
+
+        // Behavioral modifiers - emphasize declarations and important states
+        "*.declaration": {
+            "fontStyle": "bold"
+        },
+        "*.definition": {
+            "fontStyle": "bold"
+        },
+        "*.readonly": {
+            "foreground": "{{--vscodet-face-salient}}"
+        },
+        "*.deprecated": {
+            "foreground": "{{--vscodet-face-faded}}",
+            "fontStyle": "strikethrough"
+        },
+        "*.modification": {
+            "fontStyle": "bold"
+        },
+        "*.documentation": {
+            "foreground": "{{--vscodet-face-faded}}"
+        },
+        "*.defaultLibrary": {
+            "foreground": "{{--vscodet-face-salient}}"
+        },
+
+        // Specific important combinations
+        "class.declaration": {
+            "foreground": "{{--vscodet-face-strong}}",
+            "fontStyle": "bold"
+        },
+        "function.declaration": {
+            "foreground": "{{--vscodet-face-strong}}",
+            "fontStyle": "bold"
+        },
+        "method.static": {
+            "foreground": "{{--vscodet-face-strong}}"
+        },
+        "function.static": {
+            "foreground": "{{--vscodet-face-strong}}",
+            "fontStyle": "bold"
+        },
+        "variable.readonly": {
+            "foreground": "{{--vscodet-face-salient}}"
+        },
+        "property.readonly": {
+            "foreground": "{{--vscodet-face-salient}}"
+        },
+        "parameter.readonly": {
+            "foreground": "{{--vscodet-face-salient}}"
+        },
+        "class.abstract": {
+            "foreground": "{{--vscodet-face-salient}}",
+            "fontStyle": "bold"
+        },
+        "method.abstract": {
+            "foreground": "{{--vscodet-face-strong}}"
+        },
+        "function.async": {
+            "foreground": "{{--vscodet-face-strong}}",
+            "fontStyle": "bold"
+        },
+        "method.async": {
+            "foreground": "{{--vscodet-face-strong}}"
+        }
+    }
+}

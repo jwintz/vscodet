@@ -1,0 +1,80 @@
+{
+    "name": "vscodet",
+    "displayName": "VSCodeT",
+    "description": "A bichromatic semantic theme",
+    "version": "0.0.1",
+    "author": "Julien Wintz",
+    "license": "MIT",
+    "icon": "package.png",
+    "publisher": "jwintz",
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/jwintz/vscodet"
+    },
+    "engines": {
+        "vscode": "^1.75.0"
+    },
+    "capabilities": {
+        "virtualWorkspaces": true,
+        "untrustedWorkspaces": {
+            "supported": true
+        }
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "theme",
+        "color-theme",
+        "semantic",
+        "monochromatic",
+        "bichromatic"
+    ],
+    "activationEvents": [
+        "*"
+    ],
+    "main": "./out/extension.js",
+    "browser": "./out/extension.web.js",
+    "contributes": {
+        "themes": [
+            {
+                "label": "VSCodeT Light",
+                "uiTheme": "vs",
+                "path": "./themes/vscodet-light.json"
+            },
+            {
+                "label": "VSCodeT Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/vscodet-dark.json"
+            }
+        ],
+        "commands": [
+            {
+                "command": "codet.regenerate",
+                "title": "VSCodeT: Regenerate Themes with New Accent Color"
+            }
+        ],
+        "configuration": {
+            "title": "VSCodeT",
+            "properties": {
+                "codet.accent": {
+                    "type": "string",
+                    "default": "#A68AF9",
+                    "description": "The accent color used for the bichromatic theme",
+                    "pattern": "^#[0-9A-Fa-f]{6}$"
+                }
+            }
+        }
+    },
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./ && tsc src/extension.web.ts --outDir out --target es2020 --module commonjs --lib es2020",
+        "watch": "tsc -watch -p ./",
+        "dev": "npm run compile && node out/generator.js"
+    },
+    "devDependencies": {
+        "@types/vscode": "^1.74.0",
+        "@types/node": "16.x",
+        "typescript": "^4.9.4"
+    }
+}
