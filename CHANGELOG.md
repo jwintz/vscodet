@@ -13,6 +13,13 @@ Types of changes include:
 - `Fixed` for any bug fixes
 - `Security` in case of vulnerabilities
 
+## [0.0.4] - 2025-08-13
+
+### Fixed
+
+- No `*` activation
+- `vscodet.json.in`: `list`, `scrollbar` and `tab` rules simplified
+
 ## [0.0.3] - 2025-08-13
 
 ### Fixed
