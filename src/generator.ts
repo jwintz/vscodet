@@ -64,7 +64,6 @@ interface ThemeVariables {
     '--vscodet-face-faded': string;       // Less important information (muted foreground)  
     '--vscodet-face-salient': string;     // Important information (accent color)
     '--vscodet-face-popout': string;      // Attention-grabbing information (distinct hue)
-    '--vscodet-face-critical': string;    // Critical information (high contrast)
     '--vscodet-face-subtle': string;      // Background highlighting (light background)
 
     // Bracket pair colorization - accent color interpolated by saturation/depth
@@ -209,6 +208,24 @@ export class ThemeGenerator {
         const vscodet_light_foreground_alternate = '#1e1e1e';
         const vscodet_light_border = '#e0e0e0';
 
+        const vscodet_undefined = '#ff0000';
+        const vscodet_transparent = '#00000000';
+
+        const vscodet_rosewater = '#f5e0dc';
+        const vscodet_flamingo = '#f2cdcd';
+        const vscodet_pink = '#f5c2e7';
+        const vscodet_mauve = '#cba6f7';
+        const vscodet_red = '#f38ba8';
+        const vscodet_maroon = '#eba0ac';
+        const vscodet_peach = '#fab387';
+        const vscodet_yellow = '#f9e2af';
+        const vscodet_green = '#a6e3a1';
+        const vscodet_teal = '#94e2d5';
+        const vscodet_sky = '#89dceb';
+        const vscodet_sapphire = '#74c7ec';
+        const vscodet_blue = '#89b4fa';
+        const vscodet_lavender = '#b4befe';
+
         const foreground = isLight ? vscodet_light_foreground : vscodet_dark_foreground;
         const foregroundAlternate = isLight ? vscodet_light_foreground_alternate : vscodet_dark_foreground_alternate;
         const background = isLight ? vscodet_light_background : vscodet_dark_background;
@@ -244,7 +261,6 @@ export class ThemeGenerator {
             l: isLight ? Math.max(10, accentHsl.l * 0.3) : Math.min(95, accentHsl.l * 2.0)
         }));
 
-        const faceCritical = '#f38ba8';
         const faceSubtle = this.adjustLightness(background, isLight ? -2 : 2);
 
         const bracketColors: string[] = [];
@@ -263,24 +279,24 @@ export class ThemeGenerator {
             '--vscodet-accent': accentColor,
             '--vscodet-accent-hovered': accentHovered,
             '--vscodet-accent-background': accentBackground,
-            '--vscodet-undefined': '#ff0000',
-            '--vscodet-transparent': '#00000000',
+            '--vscodet-undefined': vscodet_undefined,
+            '--vscodet-transparent': vscodet_transparent,
 
             // Predefined semantic colors
-            '--vscodet-rosewater': '#f5e0dc',
-            '--vscodet-flamingo': '#f2cdcd',
-            '--vscodet-pink': '#f5c2e7',
-            '--vscodet-mauve': '#cba6f7',
-            '--vscodet-red': '#f38ba8',
-            '--vscodet-maroon': '#eba0ac',
-            '--vscodet-peach': '#fab387',
-            '--vscodet-yellow': '#f9e2af',
-            '--vscodet-green': '#a6e3a1',
-            '--vscodet-teal': '#94e2d5',
-            '--vscodet-sky': '#89dceb',
-            '--vscodet-sapphire': '#74c7ec',
-            '--vscodet-blue': '#89b4fa',
-            '--vscodet-lavender': '#b4befe',
+            '--vscodet-rosewater': vscodet_rosewater,
+            '--vscodet-flamingo': vscodet_flamingo,
+            '--vscodet-pink': vscodet_pink,
+            '--vscodet-mauve': vscodet_mauve,
+            '--vscodet-red': vscodet_red,
+            '--vscodet-maroon': vscodet_maroon,
+            '--vscodet-peach': vscodet_peach,
+            '--vscodet-yellow': vscodet_yellow,
+            '--vscodet-green': vscodet_green,
+            '--vscodet-teal': vscodet_teal,
+            '--vscodet-sky': vscodet_sky,
+            '--vscodet-sapphire': vscodet_sapphire,
+            '--vscodet-blue': vscodet_blue,
+            '--vscodet-lavender': vscodet_lavender,
 
             // Core face system
             '--vscodet-face-default': faceDefault,
@@ -288,7 +304,6 @@ export class ThemeGenerator {
             '--vscodet-face-faded': faceFaded,
             '--vscodet-face-salient': faceSalient,
             '--vscodet-face-popout': facePopout,
-            '--vscodet-face-critical': faceCritical,
             '--vscodet-face-subtle': faceSubtle,
 
             // Bracket pair colorization

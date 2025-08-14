@@ -3,7 +3,6 @@
     "type": "{{type}}",
 
     "colors": {
-
         "activityBar.foreground": "{{--vscodet-foreground}}",
         "activityBar.background": "{{--vscodet-background-alternate}}",
         "activityBar.border": "{{--vscodet-border}}",
@@ -32,7 +31,7 @@
         "editorBracketHighlight.foreground4": "{{--vscodet-bracket-4}}",
         "editorBracketHighlight.foreground5": "{{--vscodet-bracket-5}}",
         "editorBracketHighlight.foreground6": "{{--vscodet-bracket-6}}",
-        "editorBracketHighlight.unexpectedBracket.foreground": "{{--vscodet-face-critical}}",
+        "editorBracketHighlight.unexpectedBracket.foreground": "{{--vscodet-undefined}}",
         "editorCursor.foreground": "{{--vscodet-accent}}",
         "editorGroup.border": "{{--vscodet-border}}",
         "editorGroupHeader.border": "{{--vscodet-border}}",
@@ -115,7 +114,6 @@
         // "tree.tableOddRowsBackground": "{{--vscodet-background-alternate}}",
         "workbench.list.activeSelectionIconForeground": "{{--vscodet-background}}",
         "workbench.tree.iconForeground": "{{--vscodet-foreground}}"
-
     },
 
     "tokenColors": [
@@ -176,18 +174,57 @@
             }
         },
 
-        // Critical elements - critical face (errors, warnings)
+        // Critical elements - critical face (errors, warnings, deletions)
         {
             "scope": [
                 "invalid",
                 "invalid.illegal",
                 "invalid.deprecated",
                 "markup.deleted",
-                "markup.error"
+                "markup.error",
+                "diff.removed",
+                "diff.deleted",
+                "git.deleted",
+                "error",
+                "diagnostic.error"
             ],
             "settings": {
-                "foreground": "{{--vscodet-face-critical}}",
-                "fontStyle": "bold"
+                "foreground": "{{--vscodet-red}}"
+            }
+        },
+
+        // Added/inserted elements - use green semantic color
+        {
+            "scope": [
+                "markup.inserted",
+                "markup.inserted.diff",
+                "diff.inserted",
+                "diff.added",
+                "git.inserted",
+                "git.added",
+                "meta.diff.header.to-file",
+                "meta.diff.range.added",
+                "punctuation.definition.inserted",
+                "token.info-token"
+            ],
+            "settings": {
+                "foreground": "{{--vscodet-green}}"
+            }
+        },
+
+        // Modified elements - use accent/salient color
+        {
+            "scope": [
+                "markup.changed",
+                "markup.changed.diff",
+                "diff.changed",
+                "diff.modified",
+                "git.modified",
+                "meta.diff.range.changed",
+                "punctuation.definition.changed"
+            ],
+            "settings": {
+                "foreground": "{{--vscodet-face-salient}}"
             }
         },
 

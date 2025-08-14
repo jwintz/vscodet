@@ -32,7 +32,7 @@
         "editorBracketHighlight.foreground4": "#dbb0f0",
         "editorBracketHighlight.foreground5": "#e5bcef",
         "editorBracketHighlight.foreground6": "#ecc6ee",
-        "editorBracketHighlight.unexpectedBracket.foreground": "#f38ba8",
+        "editorBracketHighlight.unexpectedBracket.foreground": "#ff0000",
         "editorCursor.foreground": "#A68AF9",
         "editorGroup.border": "#363636",
         "editorGroupHeader.border": "#363636",
@@ -176,18 +176,57 @@
             }
         },
 
-        // Critical elements - critical face (errors, warnings)
+        // Critical elements - critical face (errors, warnings, deletions)
         {
             "scope": [
                 "invalid",
                 "invalid.illegal",
                 "invalid.deprecated",
                 "markup.deleted",
-                "markup.error"
+                "markup.error",
+                "diff.removed",
+                "diff.deleted",
+                "git.deleted",
+                "error",
+                "diagnostic.error"
             ],
             "settings": {
-                "foreground": "#f38ba8",
-                "fontStyle": "bold"
+                "foreground": "#f38ba8"
+            }
+        },
+
+        // Added/inserted elements - use green semantic color
+        {
+            "scope": [
+                "markup.inserted",
+                "markup.inserted.diff",
+                "diff.inserted",
+                "diff.added",
+                "git.inserted",
+                "git.added",
+                "meta.diff.header.to-file",
+                "meta.diff.range.added",
+                "punctuation.definition.inserted",
+                "token.info-token"
+            ],
+            "settings": {
+                "foreground": "#a6e3a1"
+            }
+        },
+
+        // Modified elements - use accent/salient color
+        {
+            "scope": [
+                "markup.changed",
+                "markup.changed.diff",
+                "diff.changed",
+                "diff.modified",
+                "git.modified",
+                "meta.diff.range.changed",
+                "punctuation.definition.changed"
+            ],
+            "settings": {
+                "foreground": "#dcd3f8"
             }
         },
 
@@ -297,7 +336,7 @@
                 "punctuation.decorator"
             ],
             "settings": {
-                "foreground": "#ede8fc"
+                "foreground": "#cba6f7"
             }
         },
 
@@ -420,7 +459,7 @@
 
         // Meta constructs - appropriate face based on function
         "decorator": {
-            "foreground": "#ede8fc"
+            "foreground": "#cba6f7"
         },
         "event": {
             "foreground": "#dcd3f8"

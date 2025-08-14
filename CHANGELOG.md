@@ -13,6 +13,14 @@ Types of changes include:
 - `Fixed` for any bug fixes
 - `Security` in case of vulnerabilities
 
+## [0.0.10] - 2025-08-14
+
+### Added
+
+- Colors:
+
+    - [x] Inserted/Removed kind of tokens
+
 ## [0.0.9] - 2025-08-14
 
 ### Added
