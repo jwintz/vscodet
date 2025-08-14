@@ -98,7 +98,7 @@
         // "tab.activeIconForeground": "{{--vscodet-background}}",
         // "tab.border": "{{--vscodet-border}}",
         // "tab.iconForeground": "{{--vscodet-foreground}}",
-        // "tab.inactiveBackground": "{{--vscodet-background-alternate}}",
+        "tab.inactiveBackground": "{{--vscodet-background-alternate}}",
         // "tab.inactiveForeground": "{{--vscodet-foreground}}",
         // "tab.inactiveIconForeground": "{{--vscodet-foreground}}",
         "textLink.foreground": "{{--vscodet-accent}}",

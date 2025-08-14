@@ -2,7 +2,7 @@
     "name": "vscodet",
     "displayName": "Code:T",
     "description": "A bichromatic semantic theme",
-    "version": "0.0.8",
+    "version": "0.0.9",
     "author": "Julien Wintz",
     "license": "MIT",
     "icon": "package.png",
@@ -78,5 +78,8 @@
         "@vscode/vsce": "^3.2.1",
         "ovsx": "^0.9.5",
         "typescript": "^4.9.4"
-    }
+    },
+    "extensionPack": [
+        "hypernym-studio.hypernym-icons"
+    ]
 }

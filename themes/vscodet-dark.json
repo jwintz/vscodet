@@ -98,7 +98,7 @@
         // "tab.activeIconForeground": "#1e1e1e",
         // "tab.border": "#363636",
         // "tab.iconForeground": "#ffffff",
-        // "tab.inactiveBackground": "#262626",
+        "tab.inactiveBackground": "#262626",
         // "tab.inactiveForeground": "#ffffff",
         // "tab.inactiveIconForeground": "#ffffff",
         "textLink.foreground": "#A68AF9",

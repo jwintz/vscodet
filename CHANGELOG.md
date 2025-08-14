@@ -13,6 +13,18 @@ Types of changes include:
 - `Fixed` for any bug fixes
 - `Security` in case of vulnerabilities
 
+## [0.0.9] - 2025-08-14
+
+### Added
+
+- Extension Pack:
+
+    - [x] `hypernym-studio.hypernym-icons`
+
+- Colors:
+
+    - [x] `tab.inactiveBackground`
+
 ## [0.0.8] - 2025-08-13
 
 ### Added
