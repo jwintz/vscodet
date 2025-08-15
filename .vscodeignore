@@ -20,6 +20,7 @@ out/**/*.map
 
 # Source files (keep .web.js files for web compatibility)
 src/**
+base/**
 !out/extension.web.js
 
 # Dependencies

@@ -13,6 +13,32 @@ Types of changes include:
 - `Fixed` for any bug fixes
 - `Security` in case of vulnerabilities
 
+## [0.0.11] - 2025-08-15
+
+### Added
+
+- Colors:
+
+    - [x] `diffEditor.insertedTextBackground`
+    - [x] `diffEditor.modifiedTextBackground`
+    - [x] `diffEditor.removedTextBackground`
+    - [x] `editorGutter.addedBackground`
+    - [x] `editorGutter.modifiedBackground`
+    - [x] `editorGutter.deletedBackground`
+    - [x] `list.errorForeground`
+    - [x] `list.warningForeground`
+    - [x] `list.infoForeground`
+    - [x] `gitDecoration.addedResourceForeground`
+    - [x] `gitDecoration.modifiedResourceForeground`
+    - [x] `gitDecoration.deletedResourceForeground`
+    - [x] `gitDecoration.renamedResourceForeground`
+    - [x] `gitDecoration.conflictingResourceForeground`
+    - [x] `gitDecoration.untrackedResourceForeground`
+    - [x] `gitDecoration.ignoredResourceForeground`
+    - [x] `gitDecoration.submoduleResourceForeground`
+    - [x] `gitDecoration.stageModifiedResourceForeground`
+    - [x] `gitDecoration.stageDeletedResourceForeground`
+
 ## [0.0.10] - 2025-08-14
 
 ### Added

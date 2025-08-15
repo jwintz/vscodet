@@ -3,7 +3,6 @@
     "type": "dark",
 
     "colors": {
-
         "activityBar.foreground": "#ffffff",
         "activityBar.background": "#262626",
         "activityBar.border": "#363636",
@@ -21,6 +20,9 @@
         "commandCenter.foreground": "#ffffff",
         "commandCenter.inactiveBackground": "#1e1e1e",
         "commandCenter.inactiveForeground": "#ffffff",
+        "diffEditor.insertedTextBackground": "#163f13",
+        "diffEditor.modifiedTextBackground": "#6e4e08",
+        "diffEditor.removedTextBackground": "#450718",
         "dropdown.background": "#262626",
         "dropdown.border": "#363636",
         "editor.background": "#1e1e1e",
@@ -34,19 +36,32 @@
         "editorBracketHighlight.foreground6": "#ecc6ee",
         "editorBracketHighlight.unexpectedBracket.foreground": "#ff0000",
         "editorCursor.foreground": "#A68AF9",
+        "editorGutter.addedBackground": "#a6e3a1",
+        "editorGutter.modifiedBackground": "#f9e2af",
+        "editorGutter.deletedBackground": "#f38ba8",
         "editorGroup.border": "#363636",
         "editorGroupHeader.border": "#363636",
         "editorLineNumber.foreground": "#808080",
-        "editorLink.activeForeground": "#A68AF9",
+        "editorLink.activeForeground": "#89b4fa",
         "editorOverviewRuler.border": "#363636",
+        "errorForeground": "#f38ba8",
         "explorer.iconForeground": "#ffffff",
         "focusBorder": "#A68AF9",
+        "gitDecoration.addedResourceForeground": "#a6e3a1",
+        "gitDecoration.modifiedResourceForeground": "#f9e2af",
+        "gitDecoration.deletedResourceForeground": "#f38ba8",
+        "gitDecoration.renamedResourceForeground": "#f9e2af",
+        "gitDecoration.conflictingResourceForeground": "#f38ba8",
+        "gitDecoration.untrackedResourceForeground": "#a6e3a1",
+        "gitDecoration.ignoredResourceForeground": "#808080",
+        "gitDecoration.submoduleResourceForeground": "#dcd3f8",
+        "gitDecoration.stageModifiedResourceForeground": "#f9e2af",
+        "gitDecoration.stageDeletedResourceForeground": "#f38ba8",
         "inlineChat.border": "#A68AF9",
         "inlineChatInput.border": "#A68AF9",
         "inlineChatInput.focusBorder": "#A68AF9",
         "input.background": "#262626",
         "input.border": "#363636",
-        // /////////////////////////////////////////////////////////////////////
         "list.activeSelectionBackground": "#A68AF9",
         // "list.activeSelectionForeground": "#1e1e1e",
         // "list.activeSelectionIconForeground": "#1e1e1e",
@@ -58,7 +73,9 @@
         "list.inactiveSelectionBackground": "#A68AF9",
         // "list.inactiveSelectionForeground": "#1e1e1e",
         // "list.inactiveSelectionIconForeground": "#1e1e1e",
-        // /////////////////////////////////////////////////////////////////////
+        "list.errorForeground": "#f38ba8",
+        "list.warningForeground": "#f9e2af",
+        "list.infoForeground": "#89b4fa",
         "minimap.selectionHighlight": "#322a4a",
         "minimap.selectionOccurrenceHighlight": "#322a4a",
         "panel.background": "#1e1e1e",
@@ -101,8 +118,8 @@
         "tab.inactiveBackground": "#262626",
         // "tab.inactiveForeground": "#ffffff",
         // "tab.inactiveIconForeground": "#ffffff",
-        "textLink.foreground": "#A68AF9",
-        "textLink.activeForeground": "#A68AF9",
+        "textLink.foreground": "#89b4fa",
+        "textLink.activeForeground": "#89b4fa",
         "terminal.background": "#1e1e1e",
         "titleBar.activeBackground": "#262626",
         "titleBar.border": "#363636",
@@ -115,7 +132,6 @@
         // "tree.tableOddRowsBackground": "#262626",
         "workbench.list.activeSelectionIconForeground": "#1e1e1e",
         "workbench.tree.iconForeground": "#ffffff"
-
     },
 
     "tokenColors": [
@@ -336,7 +352,7 @@
                 "punctuation.decorator"
             ],
             "settings": {
-                "foreground": "#cba6f7"
+                "foreground": "#ede8fc"
             }
         },
 
@@ -459,7 +475,7 @@
 
         // Meta constructs - appropriate face based on function
         "decorator": {
-            "foreground": "#cba6f7"
+            "foreground": "#ede8fc"
         },
         "event": {
             "foreground": "#dcd3f8"

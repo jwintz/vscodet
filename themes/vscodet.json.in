@@ -20,6 +20,9 @@
         "commandCenter.foreground": "{{--vscodet-foreground}}",
         "commandCenter.inactiveBackground": "{{--vscodet-background}}",
         "commandCenter.inactiveForeground": "{{--vscodet-foreground}}",
+        "diffEditor.insertedTextBackground": "{{--vscodet-green-bg}}",
+        "diffEditor.modifiedTextBackground": "{{--vscodet-yellow-bg}}",
+        "diffEditor.removedTextBackground": "{{--vscodet-red-bg}}",
         "dropdown.background": "{{--vscodet-background-alternate}}",
         "dropdown.border": "{{--vscodet-border}}",
         "editor.background": "{{--vscodet-background}}",
@@ -33,19 +36,32 @@
         "editorBracketHighlight.foreground6": "{{--vscodet-bracket-6}}",
         "editorBracketHighlight.unexpectedBracket.foreground": "{{--vscodet-undefined}}",
         "editorCursor.foreground": "{{--vscodet-accent}}",
+        "editorGutter.addedBackground": "{{--vscodet-green-fg}}",
+        "editorGutter.modifiedBackground": "{{--vscodet-yellow-fg}}",
+        "editorGutter.deletedBackground": "{{--vscodet-red-fg}}",
         "editorGroup.border": "{{--vscodet-border}}",
         "editorGroupHeader.border": "{{--vscodet-border}}",
         "editorLineNumber.foreground": "{{--vscodet-face-faded}}",
-        "editorLink.activeForeground": "{{--vscodet-accent}}",
+        "editorLink.activeForeground": "{{--vscodet-blue-fg}}",
         "editorOverviewRuler.border": "{{--vscodet-border}}",
+        "errorForeground": "{{--vscodet-red-fg}}",
         "explorer.iconForeground": "{{--vscodet-foreground}}",
         "focusBorder": "{{--vscodet-accent}}",
+        "gitDecoration.addedResourceForeground": "{{--vscodet-green-fg}}",
+        "gitDecoration.modifiedResourceForeground": "{{--vscodet-yellow-fg}}",
+        "gitDecoration.deletedResourceForeground": "{{--vscodet-red-fg}}",
+        "gitDecoration.renamedResourceForeground": "{{--vscodet-yellow-fg}}",
+        "gitDecoration.conflictingResourceForeground": "{{--vscodet-red-fg}}",
+        "gitDecoration.untrackedResourceForeground": "{{--vscodet-green-fg}}",
+        "gitDecoration.ignoredResourceForeground": "{{--vscodet-face-faded}}",
+        "gitDecoration.submoduleResourceForeground": "{{--vscodet-face-salient}}",
+        "gitDecoration.stageModifiedResourceForeground": "{{--vscodet-yellow-fg}}",
+        "gitDecoration.stageDeletedResourceForeground": "{{--vscodet-red-fg}}",
         "inlineChat.border": "{{--vscodet-accent}}",
         "inlineChatInput.border": "{{--vscodet-accent}}",
         "inlineChatInput.focusBorder": "{{--vscodet-accent}}",
         "input.background": "{{--vscodet-background-alternate}}",
         "input.border": "{{--vscodet-border}}",
-        // /////////////////////////////////////////////////////////////////////
         "list.activeSelectionBackground": "{{--vscodet-accent}}",
         // "list.activeSelectionForeground": "{{--vscodet-background}}",
         // "list.activeSelectionIconForeground": "{{--vscodet-background}}",
@@ -57,7 +73,9 @@
         "list.inactiveSelectionBackground": "{{--vscodet-accent}}",
         // "list.inactiveSelectionForeground": "{{--vscodet-background}}",
         // "list.inactiveSelectionIconForeground": "{{--vscodet-background}}",
-        // /////////////////////////////////////////////////////////////////////
+        "list.errorForeground": "{{--vscodet-red-fg}}",
+        "list.warningForeground": "{{--vscodet-yellow-fg}}",
+        "list.infoForeground": "{{--vscodet-blue-fg}}",
         "minimap.selectionHighlight": "{{--vscodet-accent-background}}",
         "minimap.selectionOccurrenceHighlight": "{{--vscodet-accent-background}}",
         "panel.background": "{{--vscodet-background}}",
@@ -100,8 +118,8 @@
         "tab.inactiveBackground": "{{--vscodet-background-alternate}}",
         // "tab.inactiveForeground": "{{--vscodet-foreground}}",
         // "tab.inactiveIconForeground": "{{--vscodet-foreground}}",
-        "textLink.foreground": "{{--vscodet-accent}}",
-        "textLink.activeForeground": "{{--vscodet-accent}}",
+        "textLink.foreground": "{{--vscodet-blue-fg}}",
+        "textLink.activeForeground": "{{--vscodet-blue-fg}}",
         "terminal.background": "{{--vscodet-background}}",
         "titleBar.activeBackground": "{{--vscodet-background-alternate}}",
         "titleBar.border": "{{--vscodet-border}}",
@@ -189,7 +207,7 @@
                 "diagnostic.error"
             ],
             "settings": {
-                "foreground": "{{--vscodet-red}}"
+                "foreground": "{{--vscodet-red-fg}}"
             }
         },
 
@@ -208,7 +226,7 @@
                 "token.info-token"
             ],
             "settings": {
-                "foreground": "{{--vscodet-green}}"
+                "foreground": "{{--vscodet-green-fg}}"
             }
         },
 

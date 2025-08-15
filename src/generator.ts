@@ -43,20 +43,34 @@ interface ThemeVariables {
     '--vscodet-transparent': string;
 
     // Predefined semantic colors
-    '--vscodet-rosewater': string;
-    '--vscodet-flamingo': string;
-    '--vscodet-pink': string;
-    '--vscodet-mauve': string;
-    '--vscodet-red': string;
-    '--vscodet-maroon': string;
-    '--vscodet-peach': string;
-    '--vscodet-yellow': string;
-    '--vscodet-green': string;
-    '--vscodet-teal': string;
-    '--vscodet-sky': string;
-    '--vscodet-sapphire': string;
-    '--vscodet-blue': string;
-    '--vscodet-lavender': string;
+    '--vscodet-rosewater-fg': string;
+    '--vscodet-rosewater-bg': string;
+    '--vscodet-flamingo-fg': string;
+    '--vscodet-flamingo-bg': string;
+    '--vscodet-pink-fg': string;
+    '--vscodet-pink-bg': string;
+    '--vscodet-mauve-fg': string;
+    '--vscodet-mauve-bg': string;
+    '--vscodet-red-fg': string;
+    '--vscodet-red-bg': string;
+    '--vscodet-maroon-fg': string;
+    '--vscodet-maroon-bg': string;
+    '--vscodet-peach-fg': string;
+    '--vscodet-peach-bg': string;
+    '--vscodet-yellow-fg': string;
+    '--vscodet-yellow-bg': string;
+    '--vscodet-green-fg': string;
+    '--vscodet-green-bg': string;
+    '--vscodet-teal-fg': string;
+    '--vscodet-teal-bg': string;
+    '--vscodet-sky-fg': string;
+    '--vscodet-sky-bg': string;
+    '--vscodet-sapphire-fg': string;
+    '--vscodet-sapphire-bg': string;
+    '--vscodet-blue-fg': string;
+    '--vscodet-blue-bg': string;
+    '--vscodet-lavender-fg': string;
+    '--vscodet-lavender-bg': string;
 
     // Core face system
     '--vscodet-face-default': string;     // Regular information (foreground)
@@ -226,6 +240,69 @@ export class ThemeGenerator {
         const vscodet_blue = '#89b4fa';
         const vscodet_lavender = '#b4befe';
 
+        let vscodet_rosewater_fg = vscodet_rosewater;
+        let vscodet_rosewater_bg = vscodet_rosewater;
+        let vscodet_flamingo_fg = vscodet_flamingo;
+        let vscodet_flamingo_bg = vscodet_flamingo;
+        let vscodet_pink_fg = vscodet_pink;
+        let vscodet_pink_bg = vscodet_pink;
+        let vscodet_mauve_fg = vscodet_mauve;
+        let vscodet_mauve_bg = vscodet_mauve;
+        let vscodet_red_fg = vscodet_red;
+        let vscodet_red_bg = vscodet_red;
+        let vscodet_maroon_fg = vscodet_maroon;
+        let vscodet_maroon_bg = vscodet_maroon;
+        let vscodet_peach_fg = vscodet_peach;
+        let vscodet_peach_bg = vscodet_peach;
+        let vscodet_yellow_fg = vscodet_yellow;
+        let vscodet_yellow_bg = vscodet_yellow;
+        let vscodet_green_fg = vscodet_green;
+        let vscodet_green_bg = vscodet_green;
+        let vscodet_teal_fg = vscodet_teal;
+        let vscodet_teal_bg = vscodet_teal;
+        let vscodet_sky_fg = vscodet_sky;
+        let vscodet_sky_bg = vscodet_sky;
+        let vscodet_sapphire_fg = vscodet_sapphire;
+        let vscodet_sapphire_bg = vscodet_sapphire;
+        let vscodet_blue_fg = vscodet_blue;
+        let vscodet_blue_bg = vscodet_blue;
+        let vscodet_lavender_fg = vscodet_lavender;
+        let vscodet_lavender_bg = vscodet_lavender;
+
+        let amount = isLight ? -50 : -60;
+
+        if (isLight) {
+            vscodet_rosewater_fg = this.adjustLightness(vscodet_rosewater, amount);
+            vscodet_flamingo_fg = this.adjustLightness(vscodet_flamingo, amount);
+            vscodet_pink_fg = this.adjustLightness(vscodet_pink, amount);
+            vscodet_mauve_fg = this.adjustLightness(vscodet_mauve, amount);
+            vscodet_red_fg = this.adjustLightness(vscodet_red, amount);
+            vscodet_maroon_fg = this.adjustLightness(vscodet_maroon, amount);
+            vscodet_peach_fg = this.adjustLightness(vscodet_peach, amount);
+            vscodet_yellow_fg = this.adjustLightness(vscodet_yellow, amount);
+            vscodet_green_fg = this.adjustLightness(vscodet_green, amount);
+            vscodet_teal_fg = this.adjustLightness(vscodet_teal, amount);
+            vscodet_sky_fg = this.adjustLightness(vscodet_sky, amount);
+            vscodet_sapphire_fg = this.adjustLightness(vscodet_sapphire, amount);
+            vscodet_blue_fg = this.adjustLightness(vscodet_blue, amount);
+            vscodet_lavender_fg = this.adjustLightness(vscodet_lavender, amount);
+        } else {
+            vscodet_rosewater_bg = this.adjustLightness(vscodet_rosewater, amount);
+            vscodet_flamingo_bg = this.adjustLightness(vscodet_flamingo, amount);
+            vscodet_pink_bg = this.adjustLightness(vscodet_pink, amount);
+            vscodet_mauve_bg = this.adjustLightness(vscodet_mauve, amount);
+            vscodet_red_bg = this.adjustLightness(vscodet_red, amount);
+            vscodet_maroon_bg = this.adjustLightness(vscodet_maroon, amount);
+            vscodet_peach_bg = this.adjustLightness(vscodet_peach, amount);
+            vscodet_yellow_bg = this.adjustLightness(vscodet_yellow, amount);
+            vscodet_green_bg = this.adjustLightness(vscodet_green, amount);
+            vscodet_teal_bg = this.adjustLightness(vscodet_teal, amount);
+            vscodet_sky_bg = this.adjustLightness(vscodet_sky, amount);
+            vscodet_sapphire_bg = this.adjustLightness(vscodet_sapphire, amount);
+            vscodet_blue_bg = this.adjustLightness(vscodet_blue, amount);
+            vscodet_lavender_bg = this.adjustLightness(vscodet_lavender, amount);
+        }
+
         const foreground = isLight ? vscodet_light_foreground : vscodet_dark_foreground;
         const foregroundAlternate = isLight ? vscodet_light_foreground_alternate : vscodet_dark_foreground_alternate;
         const background = isLight ? vscodet_light_background : vscodet_dark_background;
@@ -283,20 +360,34 @@ export class ThemeGenerator {
             '--vscodet-transparent': vscodet_transparent,
 
             // Predefined semantic colors
-            '--vscodet-rosewater': vscodet_rosewater,
-            '--vscodet-flamingo': vscodet_flamingo,
-            '--vscodet-pink': vscodet_pink,
-            '--vscodet-mauve': vscodet_mauve,
-            '--vscodet-red': vscodet_red,
-            '--vscodet-maroon': vscodet_maroon,
-            '--vscodet-peach': vscodet_peach,
-            '--vscodet-yellow': vscodet_yellow,
-            '--vscodet-green': vscodet_green,
-            '--vscodet-teal': vscodet_teal,
-            '--vscodet-sky': vscodet_sky,
-            '--vscodet-sapphire': vscodet_sapphire,
-            '--vscodet-blue': vscodet_blue,
-            '--vscodet-lavender': vscodet_lavender,
+            '--vscodet-rosewater-fg': vscodet_rosewater_fg,
+            '--vscodet-rosewater-bg': vscodet_rosewater_bg,
+            '--vscodet-flamingo-fg': vscodet_flamingo_fg,
+            '--vscodet-flamingo-bg': vscodet_flamingo_bg,
+            '--vscodet-pink-fg': vscodet_pink_fg,
+            '--vscodet-pink-bg': vscodet_pink_bg,
+            '--vscodet-mauve-fg': vscodet_mauve_fg,
+            '--vscodet-mauve-bg': vscodet_mauve_bg,
+            '--vscodet-red-fg': vscodet_red_fg,
+            '--vscodet-red-bg': vscodet_red_bg,
+            '--vscodet-maroon-fg': vscodet_maroon_fg,
+            '--vscodet-maroon-bg': vscodet_maroon_bg,
+            '--vscodet-peach-fg': vscodet_peach_fg,
+            '--vscodet-peach-bg': vscodet_peach_bg,
+            '--vscodet-yellow-fg': vscodet_yellow_fg,
+            '--vscodet-yellow-bg': vscodet_yellow_bg,
+            '--vscodet-green-fg': vscodet_green_fg,
+            '--vscodet-green-bg': vscodet_green_bg,
+            '--vscodet-teal-fg': vscodet_teal_fg,
+            '--vscodet-teal-bg': vscodet_teal_bg,
+            '--vscodet-sky-fg': vscodet_sky_fg,
+            '--vscodet-sky-bg': vscodet_sky_bg,
+            '--vscodet-sapphire-fg': vscodet_sapphire_fg,
+            '--vscodet-sapphire-bg': vscodet_sapphire_bg,
+            '--vscodet-blue-fg': vscodet_blue_fg,
+            '--vscodet-blue-bg': vscodet_blue_bg,
+            '--vscodet-lavender-fg': vscodet_lavender_fg,
+            '--vscodet-lavender-bg': vscodet_lavender_bg,
 
             // Core face system
             '--vscodet-face-default': faceDefault,

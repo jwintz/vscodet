@@ -3,7 +3,6 @@
     "type": "light",
 
     "colors": {
-
         "activityBar.foreground": "#000000",
         "activityBar.background": "#efefef",
         "activityBar.border": "#e0e0e0",
@@ -21,6 +20,9 @@
         "commandCenter.foreground": "#000000",
         "commandCenter.inactiveBackground": "#ffffff",
         "commandCenter.inactiveForeground": "#000000",
+        "diffEditor.insertedTextBackground": "#a6e3a1",
+        "diffEditor.modifiedTextBackground": "#f9e2af",
+        "diffEditor.removedTextBackground": "#f38ba8",
         "dropdown.background": "#efefef",
         "dropdown.border": "#e0e0e0",
         "editor.background": "#ffffff",
@@ -34,19 +36,32 @@
         "editorBracketHighlight.foreground6": "#ad35b3",
         "editorBracketHighlight.unexpectedBracket.foreground": "#ff0000",
         "editorCursor.foreground": "#A68AF9",
+        "editorGutter.addedBackground": "#24661f",
+        "editorGutter.modifiedBackground": "#9d700c",
+        "editorGutter.deletedBackground": "#730c29",
         "editorGroup.border": "#e0e0e0",
         "editorGroupHeader.border": "#e0e0e0",
         "editorLineNumber.foreground": "#808080",
-        "editorLink.activeForeground": "#A68AF9",
+        "editorLink.activeForeground": "#05347f",
         "editorOverviewRuler.border": "#e0e0e0",
+        "errorForeground": "#730c29",
         "explorer.iconForeground": "#000000",
         "focusBorder": "#A68AF9",
+        "gitDecoration.addedResourceForeground": "#24661f",
+        "gitDecoration.modifiedResourceForeground": "#9d700c",
+        "gitDecoration.deletedResourceForeground": "#730c29",
+        "gitDecoration.renamedResourceForeground": "#9d700c",
+        "gitDecoration.conflictingResourceForeground": "#730c29",
+        "gitDecoration.untrackedResourceForeground": "#24661f",
+        "gitDecoration.ignoredResourceForeground": "#808080",
+        "gitDecoration.submoduleResourceForeground": "#321685",
+        "gitDecoration.stageModifiedResourceForeground": "#9d700c",
+        "gitDecoration.stageDeletedResourceForeground": "#730c29",
         "inlineChat.border": "#A68AF9",
         "inlineChatInput.border": "#A68AF9",
         "inlineChatInput.focusBorder": "#A68AF9",
         "input.background": "#efefef",
         "input.border": "#e0e0e0",
-        // /////////////////////////////////////////////////////////////////////
         "list.activeSelectionBackground": "#A68AF9",
         // "list.activeSelectionForeground": "#ffffff",
         // "list.activeSelectionIconForeground": "#ffffff",
@@ -58,7 +73,9 @@
         "list.inactiveSelectionBackground": "#A68AF9",
         // "list.inactiveSelectionForeground": "#ffffff",
         // "list.inactiveSelectionIconForeground": "#ffffff",
-        // /////////////////////////////////////////////////////////////////////
+        "list.errorForeground": "#730c29",
+        "list.warningForeground": "#9d700c",
+        "list.infoForeground": "#05347f",
         "minimap.selectionHighlight": "#c5beda",
         "minimap.selectionOccurrenceHighlight": "#c5beda",
         "panel.background": "#ffffff",
@@ -101,8 +118,8 @@
         "tab.inactiveBackground": "#efefef",
         // "tab.inactiveForeground": "#000000",
         // "tab.inactiveIconForeground": "#000000",
-        "textLink.foreground": "#A68AF9",
-        "textLink.activeForeground": "#A68AF9",
+        "textLink.foreground": "#05347f",
+        "textLink.activeForeground": "#05347f",
         "terminal.background": "#ffffff",
         "titleBar.activeBackground": "#efefef",
         "titleBar.border": "#e0e0e0",
@@ -115,7 +132,6 @@
         // "tree.tableOddRowsBackground": "#efefef",
         "workbench.list.activeSelectionIconForeground": "#ffffff",
         "workbench.tree.iconForeground": "#000000"
-
     },
 
     "tokenColors": [
@@ -191,7 +207,7 @@
                 "diagnostic.error"
             ],
             "settings": {
-                "foreground": "#f38ba8"
+                "foreground": "#730c29"
             }
         },
 
@@ -210,7 +226,7 @@
                 "token.info-token"
             ],
             "settings": {
-                "foreground": "#a6e3a1"
+                "foreground": "#24661f"
             }
         },
 
@@ -336,7 +352,7 @@
                 "punctuation.decorator"
             ],
             "settings": {
-                "foreground": "#cba6f7"
+                "foreground": "#240e67"
             }
         },
 
@@ -459,7 +475,7 @@
 
         // Meta constructs - appropriate face based on function
         "decorator": {
-            "foreground": "#cba6f7"
+            "foreground": "#240e67"
         },
         "event": {
             "foreground": "#321685"
