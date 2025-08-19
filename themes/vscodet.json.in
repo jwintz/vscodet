@@ -3,6 +3,10 @@
     "type": "{{type}}",
 
     "colors": {
+        // /////////////////////////////////////////////////////////////////////////////
+        // Pending colors
+        // /////////////////////////////////////////////////////////////////////////////
+        // /////////////////////////////////////////////////////////////////////////////
         "activityBar.foreground": "{{--vscodet-foreground}}",
         "activityBar.background": "{{--vscodet-background-alternate}}",
         "activityBar.border": "{{--vscodet-border}}",
@@ -20,9 +24,9 @@
         "commandCenter.foreground": "{{--vscodet-foreground}}",
         "commandCenter.inactiveBackground": "{{--vscodet-background}}",
         "commandCenter.inactiveForeground": "{{--vscodet-foreground}}",
-        "diffEditor.insertedTextBackground": "{{--vscodet-green-bg}}",
-        "diffEditor.modifiedTextBackground": "{{--vscodet-yellow-bg}}",
-        "diffEditor.removedTextBackground": "{{--vscodet-red-bg}}",
+        "diffEditor.insertedTextBackground": "{{--vscodet-green-bg}}44",
+        "diffEditor.modifiedTextBackground": "{{--vscodet-yellow-bg}}44",
+        "diffEditor.removedTextBackground": "{{--vscodet-red-bg}}44",
         "dropdown.background": "{{--vscodet-background-alternate}}",
         "dropdown.border": "{{--vscodet-border}}",
         "editor.background": "{{--vscodet-background}}",
@@ -104,12 +108,20 @@
         "sideBarSectionHeader.border": "{{--vscodet-border}}",
         "statusBar.background": "{{--vscodet-background}}",
         "statusBar.border": "{{--vscodet-border}}",
+        "statusBar.debuggingBackground": "{{--vscodet-maroon}}",
+        "statusBar.debuggingForeground": "{{--vscodet-foreground-alternate}}",
         "statusBar.foreground": "{{--vscodet-foreground-alternate}}",
         "statusBar.noFolderBackground": "{{--vscodet-background}}",
+        "statusBarItem.errorBackground": "{{--vscodet-red}}",
+        "statusBarItem.errorForeground": "{{--vscodet-foreground-alternate}}",
+        "statusBarItem.infoBackground": "{{--vscodet-blue}}",
+        "statusBarItem.infoForeground": "{{--vscodet-foreground-alternate}}",
         "statusBarItem.remoteBackground": "{{--vscodet-accent}}",
-        "statusBarItem.remoteForeground": "{{--vscodet-background}}",
+        "statusBarItem.remoteForeground": "{{--vscodet-foreground-alternate}}",
         "statusBarItem.remoteHoverBackground": "{{--vscodet-accent-hovered}}",
         "statusBarItem.remoteHoverForeground": "{{--vscodet-background}}",
+        "statusBarItem.warningBackground": "{{--vscodet-yellow}}",
+        "statusBarItem.warningForeground": "{{--vscodet-foreground-alternate}}",
         // "tab.activeBackground": "{{--vscodet-accent}}",
         // "tab.activeForeground": "{{--vscodet-background}}",
         // "tab.activeIconForeground": "{{--vscodet-background}}",

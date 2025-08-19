@@ -43,32 +43,46 @@ interface ThemeVariables {
     '--vscodet-transparent': string;
 
     // Predefined semantic colors
+    '--vscodet-rosewater': string;
     '--vscodet-rosewater-fg': string;
     '--vscodet-rosewater-bg': string;
     '--vscodet-flamingo-fg': string;
+    '--vscodet-flamingo': string;
     '--vscodet-flamingo-bg': string;
+    '--vscodet-pink': string;
     '--vscodet-pink-fg': string;
     '--vscodet-pink-bg': string;
+    '--vscodet-mauve': string;
     '--vscodet-mauve-fg': string;
     '--vscodet-mauve-bg': string;
+    '--vscodet-red': string;
     '--vscodet-red-fg': string;
     '--vscodet-red-bg': string;
+    '--vscodet-maroon': string;
     '--vscodet-maroon-fg': string;
     '--vscodet-maroon-bg': string;
+    '--vscodet-peach': string;
     '--vscodet-peach-fg': string;
     '--vscodet-peach-bg': string;
+    '--vscodet-yellow': string;
     '--vscodet-yellow-fg': string;
     '--vscodet-yellow-bg': string;
+    '--vscodet-green': string;
     '--vscodet-green-fg': string;
     '--vscodet-green-bg': string;
+    '--vscodet-teal': string;
     '--vscodet-teal-fg': string;
     '--vscodet-teal-bg': string;
+    '--vscodet-sky': string;
     '--vscodet-sky-fg': string;
     '--vscodet-sky-bg': string;
+    '--vscodet-sapphire': string;
     '--vscodet-sapphire-fg': string;
     '--vscodet-sapphire-bg': string;
+    '--vscodet-blue': string;
     '--vscodet-blue-fg': string;
     '--vscodet-blue-bg': string;
+    '--vscodet-lavender': string;
     '--vscodet-lavender-fg': string;
     '--vscodet-lavender-bg': string;
 
@@ -213,11 +227,11 @@ export class ThemeGenerator {
         const vscodet_dark_background = '#1e1e1e';
         const vscodet_dark_background_alternate = '#262626';
         const vscodet_dark_foreground = '#ffffff';
-        const vscodet_dark_foreground_alternate = '#cecece';
+        const vscodet_dark_foreground_alternate = '#f6f6f6';
         const vscodet_dark_border = '#363636';
 
         const vscodet_light_background = '#ffffff';
-        const vscodet_light_background_alternate = '#efefef';
+        const vscodet_light_background_alternate = '#f6f6f6';
         const vscodet_light_foreground = '#000000';
         const vscodet_light_foreground_alternate = '#1e1e1e';
         const vscodet_light_border = '#e0e0e0';
@@ -360,32 +374,46 @@ export class ThemeGenerator {
             '--vscodet-transparent': vscodet_transparent,
 
             // Predefined semantic colors
+            '--vscodet-rosewater': vscodet_rosewater,
             '--vscodet-rosewater-fg': vscodet_rosewater_fg,
             '--vscodet-rosewater-bg': vscodet_rosewater_bg,
+            '--vscodet-flamingo': vscodet_flamingo,
             '--vscodet-flamingo-fg': vscodet_flamingo_fg,
             '--vscodet-flamingo-bg': vscodet_flamingo_bg,
+            '--vscodet-pink': vscodet_pink,
             '--vscodet-pink-fg': vscodet_pink_fg,
             '--vscodet-pink-bg': vscodet_pink_bg,
+            '--vscodet-mauve': vscodet_mauve,
             '--vscodet-mauve-fg': vscodet_mauve_fg,
             '--vscodet-mauve-bg': vscodet_mauve_bg,
+            '--vscodet-red': vscodet_red,
             '--vscodet-red-fg': vscodet_red_fg,
             '--vscodet-red-bg': vscodet_red_bg,
+            '--vscodet-maroon': vscodet_maroon,
             '--vscodet-maroon-fg': vscodet_maroon_fg,
             '--vscodet-maroon-bg': vscodet_maroon_bg,
+            '--vscodet-peach': vscodet_peach,
             '--vscodet-peach-fg': vscodet_peach_fg,
             '--vscodet-peach-bg': vscodet_peach_bg,
+            '--vscodet-yellow': vscodet_yellow,
             '--vscodet-yellow-fg': vscodet_yellow_fg,
             '--vscodet-yellow-bg': vscodet_yellow_bg,
+            '--vscodet-green': vscodet_green,
             '--vscodet-green-fg': vscodet_green_fg,
             '--vscodet-green-bg': vscodet_green_bg,
+            '--vscodet-teal': vscodet_teal,
             '--vscodet-teal-fg': vscodet_teal_fg,
             '--vscodet-teal-bg': vscodet_teal_bg,
+            '--vscodet-sky': vscodet_sky,
             '--vscodet-sky-fg': vscodet_sky_fg,
             '--vscodet-sky-bg': vscodet_sky_bg,
+            '--vscodet-sapphire': vscodet_sapphire,
             '--vscodet-sapphire-fg': vscodet_sapphire_fg,
             '--vscodet-sapphire-bg': vscodet_sapphire_bg,
+            '--vscodet-blue': vscodet_blue,
             '--vscodet-blue-fg': vscodet_blue_fg,
             '--vscodet-blue-bg': vscodet_blue_bg,
+            '--vscodet-lavender': vscodet_lavender,
             '--vscodet-lavender-fg': vscodet_lavender_fg,
             '--vscodet-lavender-bg': vscodet_lavender_bg,
 

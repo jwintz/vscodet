@@ -13,6 +13,29 @@ Types of changes include:
 - `Fixed` for any bug fixes
 - `Security` in case of vulnerabilities
 
+## [0.0.12] - 2025-08-19
+
+### Added
+
+- Colors:
+
+    - [x] `statusBar.debuggingBackground`
+    - [x] `statusBar.debuggingForeground`
+    - [x] `statusBarItem.errorBackground`
+    - [x] `statusBarItem.errorForeground`
+    - [x] `statusBarItem.infoBackground`
+    - [x] `statusBarItem.infoForeground`
+    - [x] `statusBarItem.warningBackground`
+    - [x] `statusBarItem.warningForeground`
+
+### Fixed
+
+- Colors:
+
+    - `diffEditor.insertedTextBackground`
+    - `diffEditor.modifiedTextBackground`
+    - `diffEditor.removedTextBackground`
+
 ## [0.0.11] - 2025-08-15
 
 ### Added
