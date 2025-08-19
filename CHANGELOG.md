@@ -13,7 +13,11 @@ Types of changes include:
 - `Fixed` for any bug fixes
 - `Security` in case of vulnerabilities
 
-## [0.0.13] - 2025-08-19
+## [0.0.14] - 2025-08-19
+
+- Tag misuse. Same as 0.0.13
+
+## [0.0.14] - 2025-08-19
 
 ### Fixed
 
