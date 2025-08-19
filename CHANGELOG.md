@@ -13,6 +13,25 @@ Types of changes include:
 - `Fixed` for any bug fixes
 - `Security` in case of vulnerabilities
 
+## [0.0.13] - 2025-08-19
+
+### Fixed
+
+- Colors:
+
+    - [x] `chat.requestBubbleBackground`
+    - [x] `list.activeSelectionBackground`
+    - [x] `list.activeSelectionForeground`
+    - [x] `list.activeSelectionIconForeground`
+    - [x] `list.focusBackground`
+    - [x] `list.focusForeground`
+    - [x] `list.focusIconForeground`
+    - [x] `list.highlightForeground`
+    - [x] `list.iconForeground`
+    - [x] `list.inactiveSelectionBackground`
+    - [x] `list.inactiveSelectionForeground`
+    - [x] `list.inactiveSelectionIconForeground`
+
 ## [0.0.12] - 2025-08-19
 
 ### Added
