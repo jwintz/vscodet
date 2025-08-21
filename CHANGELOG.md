@@ -13,9 +13,13 @@ Types of changes include:
 - `Fixed` for any bug fixes
 - `Security` in case of vulnerabilities
 
-## [0.0.14] - 2025-08-19
+## [0.0.15] - 2025-08-21
 
-- Tag misuse. Same as 0.0.13
+### Fixed
+
+- Generator:
+
+    - [x] `accentBackground`
 
 ## [0.0.14] - 2025-08-19
 

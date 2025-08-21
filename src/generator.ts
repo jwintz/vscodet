@@ -330,7 +330,7 @@ export class ThemeGenerator {
         const accentBackground = this.rgbToHex(this.hslToRgb({
             h: accentBgHsl.h,
             s: accentBgHsl.s * 0.3,
-            l: isLight ? Math.min(80, accentBgHsl.l * 1.5) : Math.max(20, accentBgHsl.l * 0.3)
+            l: isLight ? Math.min(80, accentBgHsl.l * 1.5) : Math.min(50, accentBgHsl.l * 0.6)
         }));
 
         const faceDefault = foreground;

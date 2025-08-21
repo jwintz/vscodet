@@ -6,6 +6,8 @@
         // /////////////////////////////////////////////////////////////////////////////
         // Pending colors
         // /////////////////////////////////////////////////////////////////////////////
+        // "minimap.background": "#ffffff",
+        // "minimap.border": "#e0e0e0",
         // /////////////////////////////////////////////////////////////////////////////
         "activityBar.foreground": "#000000",
         "activityBar.background": "#f6f6f6",
@@ -14,7 +16,7 @@
         "button.background": "#A68AF9",
         "button.hoverBackground": "#9472f8",
         "chat.requestBubbleBackground": "#c5beda",
-        "chat.requestBubbleHoverBackground": "#9472f8",
+        "chat.requestBubbleHoverBackground": "#A68AF9",
         "chat.slashCommandBackground": "#f6f6f6",
         "chat.slashCommandForeground": "#000000",
         "commandCenter.activeBackground": "#ffffff",

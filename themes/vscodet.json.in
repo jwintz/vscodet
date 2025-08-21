@@ -6,6 +6,8 @@
         // /////////////////////////////////////////////////////////////////////////////
         // Pending colors
         // /////////////////////////////////////////////////////////////////////////////
+        // "minimap.background": "{{--vscodet-background}}",
+        // "minimap.border": "{{--vscodet-border}}",
         // /////////////////////////////////////////////////////////////////////////////
         "activityBar.foreground": "{{--vscodet-foreground}}",
         "activityBar.background": "{{--vscodet-background-alternate}}",
@@ -14,7 +16,7 @@
         "button.background": "{{--vscodet-accent}}",
         "button.hoverBackground": "{{--vscodet-accent-hovered}}",
         "chat.requestBubbleBackground": "{{--vscodet-accent-background}}",
-        "chat.requestBubbleHoverBackground": "{{--vscodet-accent-hovered}}",
+        "chat.requestBubbleHoverBackground": "{{--vscodet-accent}}",
         "chat.slashCommandBackground": "{{--vscodet-background-alternate}}",
         "chat.slashCommandForeground": "{{--vscodet-foreground}}",
         "commandCenter.activeBackground": "{{--vscodet-background}}",
